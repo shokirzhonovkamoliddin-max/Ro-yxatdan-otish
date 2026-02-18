@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ro'yxatdan o'tish</title>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card p-4">
+        <h2 class="title mb-4">Ro'yxatdan o'tish</h2>
+        <div class="mb-3">
+          <label class="form-label">Ismingiz:</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Ismingizni kiriting"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            placeholder="name@example.com"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Parol:</label>
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Parol kiriting"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Telefon raqam:</label>
+          <input
+            type="tel"
+            class="form-control"
+            placeholder="+998 90 123 45 67"
+          />
+        </div>
+
+        <div class="mb-3 text-start">
+          <label class="form-label d-block">Jins:</label>
+
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gender"
+              id="male"
+            />
+            <label class="form-check-label" for="male">Erkak</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gender"
+              id="female"
+            />
+            <label class="form-check-label" for="female">Ayol</label>
+          </div>
+        </div>
+
+        <div class="mb-4  ">
+          <label class="form-label">Shahar:</label>
+          <select class="form-select">
+            <option selected>Shaharni tanlang</option>
+            <option value="tashkent">Toshkent</option>
+            <option value="samarkand">Samarqand</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">
+          Ro'yxatdan o'tish
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

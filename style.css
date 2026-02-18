@@ -1,0 +1,37 @@
+body {
+  background-color: #cfcdcd;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 560px;
+  height: auto;
+  box-shadow: 5px 5px 30px black;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: left; 
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.mb-3,
+.mb-4 {
+  text-align: left;
+}
+
+.title{
+    text-align: center;
+}
